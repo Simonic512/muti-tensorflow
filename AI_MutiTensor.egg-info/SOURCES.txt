@@ -1,0 +1,9 @@
+setup.py
+AI_MutiTensor/__init__.py
+AI_MutiTensor/conf.py
+AI_MutiTensor/main.py
+AI_MutiTensor.egg-info/PKG-INFO
+AI_MutiTensor.egg-info/SOURCES.txt
+AI_MutiTensor.egg-info/dependency_links.txt
+AI_MutiTensor.egg-info/not-zip-safe
+AI_MutiTensor.egg-info/top_level.txt
