@@ -12,6 +12,7 @@ muti-tensorflow
 
 3). 自动将每个模型训练日志输出重定向至文件中，支持配置模型对应文件名。
 
+
 2. 使用方法
 ------
 
@@ -23,12 +24,17 @@ muti-tensorflow
 
 e.g:
 from AI_MutiTensor.main import main
+
 from processtest1 import test1
+
 from processtest2 import test2
+
 main([test1,test2],[27,27],['ss1','ss2'])
+
 list4job 对应函数名，list4arg 对应参数dict(对于多个参数的需要传入字典列表),list4name对应每个函数日志的输出文件名，缺省为序号.out。
 
 3). 运行 python main
+
 
 3. waiting to update:
 ------
@@ -38,6 +44,7 @@ list4job 对应函数名，list4arg 对应参数dict(对于多个参数的需要
 2). 支持更多种使用方式。
 
 3). CPU多线程。
+
 
 4. 使用环境(已通过测试)
 ------
